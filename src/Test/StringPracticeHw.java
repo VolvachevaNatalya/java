@@ -11,7 +11,7 @@ public class StringPracticeHw {
         for (int i = str.length() - 1; i >= 0; i--) {
             rev += str.charAt(i);
         }
-        return rev;
+        return rev.trim();
     }
 
     public static Integer getCountWords(String sent, String word) {

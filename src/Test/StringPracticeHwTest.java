@@ -6,6 +6,8 @@ class StringPracticeHwTest {
     @Test
     void getStrReverse() {
         assertEquals("olleH", StringPracticeHw.getStrReverse("Hello"));
+        assertEquals("olleH", StringPracticeHw.getStrReverse("Hello   "));
+        assertEquals("olleH", StringPracticeHw.getStrReverse("   Hello"));
         assertNull(StringPracticeHw.getStrReverse(""));
         assertNull(StringPracticeHw.getStrReverse("  "));
         assertNull(StringPracticeHw.getStrReverse(null));
